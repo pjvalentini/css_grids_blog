@@ -57,5 +57,16 @@ figcaption p {
 }
 
 a {
-  box-shadow: inset 0 -0.25em hsl(55, 100%, 75%); /* use em to keep shadow propotional to the font size */
+  box-shadow: inset 0 -0.25em hsl(55, 100%, 75%); /* use em to keep shadow proportional to the font size */
+}
+
+.social_media {
+  display: flex;
+	justify-content: center;
+}
+
+.social_media img {
+  padding: 0.75rem;
+  width: 1.50rem;
+  height: 1.50rem;
 }
