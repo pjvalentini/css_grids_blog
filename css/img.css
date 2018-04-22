@@ -5,7 +5,9 @@
 
 .size-1 img, .size-2 img, .size-3 img, .size-4 img { width: 100%; }
 
+/* centers and spaces the figcaption from the figure */
 figcaption {
+  margin-top: 0.5rem;
   display: flex;
 	justify-content: center;
 }
