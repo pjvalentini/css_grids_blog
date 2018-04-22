@@ -1,11 +1,3 @@
-/* makes sure a break is added to each p tag but not after last one! */
-/* h2, p:not(:last-child) {
-  margin-bottom: 2.4rem;
-} */
-
-h2, p {
-  margin-bottom: 2.4rem;
-}
 
 article {
   display: grid;
@@ -21,52 +13,4 @@ article * {
   article {
     grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr;
   }
-}
-
-@media (max-width: 8.5in) { :root { font-size: 18px; } }
-@media (max-width: 5.0in) { :root { font-size: 16px; } }
-
-h1 {
-  font: 700 2rem/1.2 "Roboto";
-  color: hsl(000, 0%, 33%);
-}
-
-h2 {
-  font: 400 1.5rem/1.2 "Roboto";
-  color: hsl(000, 0%, 33%);
-}
-
-time {
-  font: 700 1.0rem/1.2 "Roboto";
-  color: hsl(250, 100%, 84%);
-}
-
-h3 {
-  font: 700 1.0rem/1.2 "Roboto";
-  color: hsl(250, 100%, 67%);
-}
-
-p {
-  font: 400 1.0rem/1.5 "Roboto";
-  color: hsl(000, 0%, 33%);
-}
-
-figcaption p {
-  font: 400 1.0rem/1.5 "Roboto";
-  color: hsl(000, 000%, 82%);
-}
-
-a {
-  box-shadow: inset 0 -0.25em hsl(55, 100%, 75%); /* use em to keep shadow proportional to the font size */
-}
-
-.social_media {
-  display: flex;
-	justify-content: center;
-}
-
-.social_media img {
-  padding: 0.75rem;
-  width: 1.50rem;
-  height: 1.50rem;
 }
